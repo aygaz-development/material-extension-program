@@ -1,0 +1,6 @@
+PROCESS BEFORE OUTPUT.
+  MODULE status_0300.
+
+PROCESS AFTER INPUT.
+  MODULE user_command_0300_at_exit AT EXIT-COMMAND.
+  MODULE user_command_0300.
